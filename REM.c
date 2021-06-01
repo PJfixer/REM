@@ -231,5 +231,6 @@ __weak int send_REM_buffer(uint8_t length)
 	/* NOTE: This function Should not be modified, when needed,
 	       the send_REM_buffer could be implemented in the user  file
 	  */
+	return -1;
 }
 
