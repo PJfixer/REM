@@ -100,8 +100,8 @@ typedef struct{
 }REM_state;
 
 
-extern uint8_t REM_TX_FRAME[];
-extern uint8_t REM_RX_FRAME[];
+extern uint8_t REM_TX_FRAME[REM_FRAME_MAX_SIZE];
+extern uint8_t REM_RX_FRAME[REM_FRAME_MAX_SIZE];
 
 extern volatile REM_state Rem1;
 
